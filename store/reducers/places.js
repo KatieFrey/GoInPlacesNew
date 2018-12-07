@@ -4,6 +4,9 @@ import {
   SELECT_PLACE,
   DESELECT_PLACE
 } from "../actions/actionTypes";
+
+import placeImage from "../../assets/tropical-destination.jpg";
+
 const initialState = {
   places: [],
   selectedPlace: null
